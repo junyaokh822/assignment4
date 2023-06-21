@@ -47,10 +47,9 @@ const posters = [
   // Function to generate a custom poster
   function generateCustomPoster(event) {
     event.preventDefault();
-  
     // TODO: Retrieve the entered quote and author from the input fields    
-    const title = document.getElementById('poster-title').value;
-    const quote = document.getElementById('poster-quote').value;
+    const title = document.getElementById('poster-form-title').value;
+    const quote = document.getElementById('poster-form-quote').value;
     const imageUrl = document.getElementById('poster-image').value;
     // TODO: Create a custom poster object with the entered values
     const customPoster = {
