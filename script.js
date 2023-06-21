@@ -5,8 +5,7 @@ const posterTitle = document.getElementById('poster-title');
 const posterQuote = document.getElementById('poster-quote');
 const randomizeButton = document.getElementById('randomize');
 const submitButton = document.getElementById('submit');
-const input1 = document.getElementById('input1')
-const input2 = document.getElementById('input2')
+
 
 //console.log('empty',input1.value);
 
@@ -52,8 +51,8 @@ const posters = [
   function generateCustomPoster(event) {
     event.preventDefault();
     // TODO: Retrieve the entered quote and author from the input fields    
-    //const title = document.getElementById('poster-form-title').value;
-    //const quote = document.getElementById('poster-form-quote').value;
+    const input1 = document.getElementById('input1')
+    const input2 = document.getElementById('input2')
     const imageUrl = document.getElementById('poster-image').src;
    
     // TODO: Create a custom poster object with the entered values
